@@ -2,6 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const request = require('./util/request')
 const { cookieToJson } = require('./util/index')
+// 测试
 
 let obj = {}
 fs.readdirSync(path.join(__dirname, 'module'))
